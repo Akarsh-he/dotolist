@@ -1,0 +1,98 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Exo 2", sans-serif;
+color: white;
+}
+ 
+html, body {
+height: 100%;
+width:100%
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background-color: rgb(87, 8, 160);
+}
+
+nav h1{
+    font-size: 3vmax;
+}
+
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100% - 10vh);
+}
+
+.adding{
+    position: relative;
+    top: 10px;
+    height: 4vmax;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.adding input{
+    height: 100%;
+    width: 50%;
+    color: black;
+    font-size: 2vmax;
+}
+
+main img{
+    cursor: pointer;
+    height: 100%;
+    width: 4vmax;
+    /* position: absolute; */
+    /* bottom: 20px; */
+    /* right: 20px; */
+    background-color: rgb(87, 8, 160);
+    /* border-radius: 50%; */
+}
+
+.items{
+    height: 100%;
+    width: 85%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    height: 10vh;
+    width: 90vmax;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: 90%;
+    background-color: rgb(87, 8, 160);
+}
+
+.alert{
+    color: red;
+    position: relative;
+    top: 10px;
+}
